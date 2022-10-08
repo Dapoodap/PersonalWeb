@@ -162,6 +162,13 @@ footer{
 .contact .mail >a{
     margin-left: 20px;
 }
+.contact .social{
+    margin-left: 7px;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
 .page ul{
     display: flex;
 }

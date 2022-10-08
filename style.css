@@ -12,9 +12,6 @@
 body {
   background-color: #fff8f3;
 }
-hr {
-  margin: auto;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -97,8 +94,9 @@ ul li a:hover {
   box-shadow: 0 1px 1px #888888;
 }
 .me {
+  margin-top: 90px;
   height: fit-content;
-  padding: 59px 180px;
+  padding: 0 180px;
 }
 .icon {
   display: flex;
@@ -117,22 +115,9 @@ ul li a:hover {
   padding-left: 28px;
   width: 900px;
 }
-.tools > h3 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 20px;
-  text-decoration: underline;
-}
-.tools {
-  margin-top: 18px;
-  padding-left: 28px;
-  width: 900px;
-}
-.tools > h3 {
-  margin-left: 20px;
-}
-.tools > p {
-  margin-left: 60px;
+.porto{
+  margin-top: 115px;
+  padding: 0 180px;
 }
 .cards {
   padding: 0 180px;
@@ -148,7 +133,11 @@ background-size: cover;
 
 .card--2 .card__img,
 .card--2 .card__img--hover {
-  background-image: url(/gambar/landing.jpg)
+  background-image: url(/gambar/calc.jpg)
+}
+.card--3 .card__img,
+.card--3 .card__img--hover {
+  background-image: url(/gambar/palindrom.jpg)
 }
 .card__img {
   visibility: hidden;
@@ -285,6 +274,13 @@ footer{
 }
 .contact .mail >a{
     margin-left: 20px;
+}
+.contact .social{
+  margin-left: 7px;
+  margin-top: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
 }
 .page ul{
     display: flex;
